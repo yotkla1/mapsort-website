@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nearby Restaurants</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-QxI3hMt2Nh7hufB7LcGBWiVJ6-eRIvI&libraries=places"></script>
+  </head>
+  <!-- <script src="mapscript.js"></script> -->
+  <body>
+    <div class="input-container">
+      <label for="insertRadius" class="input-label"
+        >Insert search radius:</label
+      >
+      <input id="insertRadius" type="text" size="30" />
+    </div>
+    <div class="input-container">
+      <label for="insertMinRating" class="input-label">Insert rating:</label>
+      <input id="insertMinRating" type="text" size="30" />
+    </div>
+    <div class="input-container">
+      <label for="insertMinTotalRatings" class="input-label"
+        >Insert # of ratings:</label
+      >
+      <input id="insertMinTotalRatings" type="text" size="30" />
+    </div>
+
+    <div class="input-container">
+      <label for="searchTextField" class="input-label">Search location:</label>
+      <input id="searchTextField" type="text" size="50" />
+    </div>
+
+    <!-- <input
+      id="insertMinRating"
+      placeholder="Insert rating"
+      type="text"
+      size="20"
+    />
+    <input
+      id="insertMinTotalRatings"
+      placeholder="Insert # of ratings"
+      type="text"
+      size="20"
+    />
+    <input
+      id="insertRadius"
+      placeholder="Insert search radius"
+      type="text"
+      size="20"
+    />
+    <input
+      id="insertRadius"
+      placeholder="Insert search radius"
+      type="text"
+      size="20"
+    />
+    <input id="searchTextField" type="text" size="50" /> -->
+    <div id="map" style="height: 500px"></div>
+    <script src="mapscript.js"></script>
+  </body>
+</html>
